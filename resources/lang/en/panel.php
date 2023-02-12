@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'Konsep FO Core',
+    'site_title' => 'Simulasi FO Core',
 ];
