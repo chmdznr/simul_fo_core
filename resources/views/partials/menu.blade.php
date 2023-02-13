@@ -86,16 +86,6 @@
                             </a>
                         </li>
                     @endcan
-                    @can('asset_location_access')
-                        <li class="c-sidebar-nav-item">
-                            <a href="{{ route("admin.asset-locations.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/asset-locations") || request()->is("admin/asset-locations/*") ? "c-active" : "" }}">
-                                <i class="fa-fw fas fa-map-marker c-sidebar-nav-icon">
-
-                                </i>
-                                {{ trans('cruds.assetLocation.title') }}
-                            </a>
-                        </li>
-                    @endcan
                     @can('asset_condition_access')
                         <li class="c-sidebar-nav-item">
                             <a href="{{ route("admin.asset-conditions.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/asset-conditions") || request()->is("admin/asset-conditions/*") ? "c-active" : "" }}">
